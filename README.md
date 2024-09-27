@@ -1,7 +1,8 @@
 # Fauxtion
-Like Notion, but a little more faux. I created my own spin of a bare-bones to-do list application from The Odin Project's JavaScript curriculum.
+Like Notion, but a little more faux. 
+Created my own spin on a note-taking application from The Odin Project's JavaScript curriculum.
 
 
-[Link to Site](https://remosrulloda.github.io/Fauxtion/) 
+[Link to Site](https://remosrulloda.github.io/Fauxtion/)
 
-![Screenshot 2024-09-26 at 10 41 01 AM](https://github.com/user-attachments/assets/eb4c3aeb-8ff3-46e7-91e3-e4cc955c9912) 
+<img src="./logo.png">
