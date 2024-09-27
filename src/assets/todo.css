@@ -1,0 +1,216 @@
+.projectContentArea {
+  padding: 30px;
+  width: 50%;
+  
+}
+
+.todoArea-title {
+  display: flex;
+}
+
+.svg {
+  color: var(--svg-color);
+}
+
+.todo {
+  display: flex;
+  margin-top: 20px;
+  gap: 18px;
+  flex-direction: row;
+  border-radius: 10px;
+  padding: 15px;
+  align-items: center;
+  outline: var(--blue-munsell) solid 2px;
+  border-left: 6px solid var(--blue-munsell);
+  justify-content: space-between;
+}
+
+.todo-grouping {
+  display: flex;
+  gap: 20px;
+}
+
+.tasks-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+
+.todo.low {
+  outline: var(--low) solid 2px;
+  border-left: 6px solid var(--low);
+  accent-color: var(--low);
+}
+
+.todo.medium {
+  outline: var(--medium) solid 2px;
+  border-left: 6px solid var(--medium);
+  accent-color: var(--medium);
+}
+
+.todo.high {
+  outline: var(--high) solid 2px;
+  border-left: 6px solid var(--high);
+  accent-color: var(--high);
+}
+
+.todo-action-low .editToDo.svg {
+  color: var(--low);
+}
+
+.todo-action-medium .editToDo.svg{
+  color: var(--medium);
+}
+
+.todo-action-high .editToDo.svg {
+  color: var(--high);
+}
+
+.todo-check-section {
+  display: flex;
+  padding: 5px;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5);
+}
+
+.todo-text-section-true {
+  text-decoration: line-through;
+  color: lightgray;
+}
+
+button.editToDo,
+button.add-todo {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.todoArea-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-todo-form,
+.edit-todo-form {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  width: 400px;
+  min-height: 300px;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  overflow: visible;
+}
+
+.edit-todo-form {
+  padding: 0 20px 0 20px;
+}
+
+#add-todo-form {
+  display: flex;
+  flex-direction: column;
+}
+
+dialog::backdrop {
+  background-color: rgb(0, 0, 0, 0.2);
+}
+
+input.submit {
+  cursor: pointer;
+  background: var(--submit);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 5.613rem;
+}
+
+.form-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+#add-todo-form input[type="text"],
+#add-todo-form select,
+.flatpickr-date {
+  width: 100%;
+  max-width: 100%;
+  font-size: 1rem;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+#edit-todo-form input[type="text"],
+#edit-todo-form select,
+.flatpickr-date {
+  width: 100%;
+  max-width: 100%;
+  font-size: 1rem;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.flatpickr-date {
+  padding: 10px;
+}
+
+label {
+  width: 120px;
+  text-align: left;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.actions button,
+.actions input {
+  flex: 1;
+  margin: 0 5px;
+}
+
+.todo-title {
+  font-size: 1.125rem;
+}
+
+#edit-task-delete {
+  color: var(--high);
+}
+
+.form-section-delete{
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+#time-until {
+  font-weight: bold;
+}
+
+.todo-high {
+  color: var(--high);
+}
+
+.todo-medium {
+  color: var(--medium);
+}
+
+.todo-low {
+  color: var(--low);
+}

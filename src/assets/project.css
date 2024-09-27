@@ -1,0 +1,120 @@
+.projectArea {
+  flex: 0 0 30%;
+  padding: 30px;
+  border-right: 2px solid #ddd;
+  background-color: #ffffff;
+}
+
+.projectArea-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.svg {
+  color: var(--svg-color);
+}
+
+.project-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column-reverse;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.projectArea h2 {
+  font-size: 24px;
+}
+
+.projectArea .all-tasks-btn {
+  width: fit-content;
+  margin-top: 10px;
+}
+
+.all-tasks-btn {
+  background-color: var(--moonstone);
+  font-weight: bold;
+}
+.all-tasks-btn:hover {
+  background-color: var(--myrtle-green);
+}
+
+.all-tasks-btn:active {
+  background-color: var(--dark-slate-gray);
+}
+
+.all-tasks-btn.toggled {
+  background-color: var(--myrtle-green);
+  color: #fff;
+  font-weight: bold;
+}
+
+.project {
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.project p {
+  margin-left: 10px;
+}
+
+.project.active {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.active {
+  background-color: lightblue;
+  color: var(--text);
+  border-radius: 9px;
+}
+
+.project {
+  cursor: pointer;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+}
+
+.project-buttons {
+  display: none;
+}
+
+.project.active .project-buttons {
+  display: flex;
+  gap: 2px;
+}
+
+button.delete,
+button.rename,
+button.saveTitle,
+button.cancelTitle,
+button.add-project,
+button.deleteToDo {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  color: var(--svg-left);
+}
+
+.form-name-change {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-top: 10px;
+  justify-content: flex-end;
+}
