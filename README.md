@@ -33,9 +33,9 @@ Check out the live application here:
 
 1. Clone the repository:
 
-   \`\`\`bash
-   git clone https://github.com/RemorRulloda/fauxtion.git
-   \`\`\`
+   ```bash
+   git clone https://github.com/remosrulloda/Fauxtion.git
+   ```
 
 2. Open the project directory and launch the `index.html` file in your browser to use the app.
 
